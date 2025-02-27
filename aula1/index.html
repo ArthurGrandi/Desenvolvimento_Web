@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+    <style>
+        table {
+            width: 80%;
+            border-collapse: collapse;
+            margin: 20px auto;
+            font-family: Arial, sans-serif;
+            border-color: black;
+            border-style: solid;
+        }
+        th, tr{
+            border-style: solid, 1px, #000000;
+            
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <colgroup style>
+            <col span="2" style="background-color:beige; column-width: 75%; column-style: solid;">
+            <col style="background-color:lightgrey">
+          </colgroup>
+        <tr>
+            <th>Company</th>
+            <th>Contact</th>
+            <th>Country</th>
+        </tr>
+        <tr>
+            <td>Alfreds Furtterkiste</td>
+            <td>Maria Anders</td>
+            <td>Germany</td>
+        </tr>
+        <tr>
+            <td>Centro comercial Moctezuma</td>
+            <td>Francisco Chang</td>
+            <td>Mexico</td>
+        </tr>
+    </table>
+</body>
+</html>
